@@ -8,7 +8,7 @@ CallInitiationEvent(eventData){
     if(BaseStation_List[eventData.base_Station_No].available_Channel>0)
     {
         // Has free channel: Use 1 channel for this new call
-        BaseStation_List[eventData.baseStation_No].useChannel();
+        BaseStation_List[eventData.baseStation_No]
     } else {
         // No free channel: Call is blocked
         int num_Blocked_Calls ++;
